@@ -1,13 +1,17 @@
+<!--
+# -*- mode: jinja -*-
+-->
+
 About r-effects
 ===============
 
-Home: https://CRAN.R-project.org/package=effects
+Home: https://www.r-project.org, https://socialsciences.mcmaster.ca/jfox/
 
-Package license: GPL2, GPL3
+Package license: GPL (>= 2)
 
 Feedstock license: BSD 3-Clause
 
-Summary: Graphical and tabular effect displays, e.g., of interactions, for  various statistical models with linear predictors.
+Summary:  Graphical and tabular effect displays, e.g., of interactions, for  various statistical models with linear predictors.
 
 
 
@@ -48,6 +52,8 @@ conda search r-effects --channel conda-forge
 
 About conda-forge
 =================
+
+[![Powered by NumFOCUS](https://img.shields.io/badge/powered%20by-NumFOCUS-orange.svg?style=flat&colorA=E1523D&colorB=007D8A)](http://numfocus.org)
 
 conda-forge is a community-led conda channel of installable packages.
 In order to provide high-quality builds, the process has been automated into the
@@ -103,3 +109,10 @@ In order to produce a uniquely identifiable distribution:
  * If the version of a package **is** being increased, please remember to return
    the [``build/number``](https://conda.io/docs/user-guide/tasks/build-packages/define-metadata.html#build-number-and-string)
    back to 0.
+
+Feedstock Maintainers
+=====================
+
+* [@ccwang002](https://github.com/ccwang002/)
+* [@conda-forge/r](https://github.com/conda-forge/r/)
+
