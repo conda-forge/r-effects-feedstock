@@ -1,4 +1,4 @@
-{% set version = '4.1-1' %}
+{% set version = '4.1-2' %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,11 +10,11 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/effects_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/effects/effects_{{ version }}.tar.gz
-  sha256: da0e7d36ece78a8bc007b238d8a156bbfbec1c82e99c0f73c15a77afbdce6ac8
+  sha256: 11cb4522256fe64594c2da39594c44b992706276382f233710bbe8260a3f6723
 
 build:
   merge_build_host: True  # [win]
-  number: 1
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
@@ -49,11 +49,12 @@ test:
 
 about:
   home: https://www.r-project.org, https://socialsciences.mcmaster.ca/jfox/
-  license: GPL (>= 2)
+  license: GPL-2
   summary: ' Graphical and tabular effect displays, e.g., of interactions, for  various statistical
     models with linear predictors.'
-  license_family: GPL3
-  license_file: '{{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-2'
+  license_family: GPL2
+  license_file:
+    - '{{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-2'
 
 extra:
   recipe-maintainers:
@@ -61,8 +62,8 @@ extra:
     - ccwang002
 
 # Package: effects
-# Version: 4.1-1
-# Date: 2019-05-20
+# Version: 4.1-2
+# Date: 2019-08-30
 # Title: Effect Displays for Linear, Generalized Linear, and Other Models
 # Authors@R: c(person("John", "Fox", role = c("aut", "cre"), email = "jfox@mcmaster.ca"), person("Sanford", "Weisberg", role = "aut", email = "sandy@umn.edu"), person("Brad", "Price", role = "aut", email = "brad.price@mail.wvu.edu"), person("Michael", "Friendly", role = "aut", email = "friendly@yorku.ca"), person("Jangman", "Hong", role = "aut"), person("Robert", "Andersen", role = "ctb"), person("David", "Firth", role = "ctb"), person("Steve", "Taylor", role = "ctb"), person("R Core Team", role="ctb"))
 # Depends: R (>= 3.5.0), carData
@@ -78,8 +79,8 @@ extra:
 # Maintainer: John Fox <jfox@mcmaster.ca>
 # Repository: CRAN
 # Repository/R-Forge/Project: effects
-# Repository/R-Forge/Revision: 378
-# Repository/R-Forge/DateTimeStamp: 2019-05-27 15:31:15
-# Date/Publication: 2019-05-28 17:00:05 UTC
+# Repository/R-Forge/Revision: 385
+# Repository/R-Forge/DateTimeStamp: 2019-08-30 17:33:03
+# Date/Publication: 2019-09-03 17:20:08 UTC
 # NeedsCompilation: no
-# Packaged: 2019-05-27 15:53:38 UTC; rforge
+# Packaged: 2019-08-30 17:51:15 UTC; rforge
