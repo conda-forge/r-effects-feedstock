@@ -28,6 +28,7 @@ requirements:
     - r-cardata
     - r-colorspace
     - r-estimability
+    - r-insight
     - r-lattice
     - r-lme4
     - r-nnet
@@ -37,6 +38,7 @@ requirements:
     - r-cardata
     - r-colorspace
     - r-estimability
+    - r-insight
     - r-lattice
     - r-lme4
     - r-nnet
@@ -49,7 +51,7 @@ test:
 
 about:
   home: https://www.r-project.org, https://socialsciences.mcmaster.ca/jfox/
-  license: GPL-2
+  license: GPL-2.0-or-later
   summary: ' Graphical and tabular effect displays, e.g., of interactions, for  various statistical models with linear predictors.'
   license_family: GPL2
   license_file:
