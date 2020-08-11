@@ -3,9 +3,9 @@ About r-effects
 
 Home: https://www.r-project.org, https://socialsciences.mcmaster.ca/jfox/
 
-Package license: GPL-2
+Package license: GPL-2.0-or-later
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary:  Graphical and tabular effect displays, e.g., of interactions, for  various statistical models with linear predictors.
 
