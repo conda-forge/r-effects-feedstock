@@ -1,11 +1,11 @@
-About r-effects
-===============
+About r-effects-feedstock
+=========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-effects-feedstock/blob/main/LICENSE.txt)
 
 Home: https://www.r-project.org, https://socialsciences.mcmaster.ca/jfox/
 
 Package license: GPL-2.0-or-later
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-effects-feedstock/blob/main/LICENSE.txt)
 
 Summary:  Graphical and tabular effect displays, e.g., of interactions, for  various statistical models with linear predictors.
 
