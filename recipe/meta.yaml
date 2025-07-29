@@ -1,4 +1,4 @@
-{% set version = "4.2-2" %}
+{% set version = "4.2-4" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,10 +9,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/effects_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/effects/effects_{{ version }}.tar.gz
-  sha256: 2fee322cee8f6eb634bcd54e7793a750c8196443cac176c6793ea854553a925a
+  sha256: 497fce4ad10c713af1e38a5dd60d49b4bf00fe7b060d603d41527c3397f20852
 
 build:
-  number: 3
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
